@@ -12,7 +12,7 @@ This project is a "Home" (Homeware) category page for Losode’s e-commerce plat
 - **Tailwind CSS** & **Material Tailwind** for styling
 - **Lucide React** for icons
 - **Montserrat** and **Playfair Display** fonts for Losode’s brand aesthetic
-- Added **`react-slick`** to the list of technologies, since it’s used for the mobile hero slider.
+- Added **`react-slick`** it’s used for the mobile hero slider.
 
 ## Features
 
