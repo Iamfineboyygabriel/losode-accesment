@@ -61,7 +61,7 @@ const MobileHero = () => {
   ];
 
   return (
-    <div className="relative w-full">
+    <div className="relative md:hidden block w-full">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative">
