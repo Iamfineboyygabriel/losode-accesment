@@ -88,6 +88,16 @@ Submitted By: [Akintola Babatunde Rafiu] for Losode Frontend Engineer Assessment
 Troubleshooting
 Ensure Node.js and npm versions meet the requirements.
 
+## Screenshots
+
+Below are screenshots of the Home category page and its features:
+
+![Home Category Page (Desktop)](screenshots/home-page-desktop.png)
+_Desktop view of the Home category page with hero banner and product grid._
+
+![Product Tagline Generator](screenshots/tagline-generator.png)
+_Product Tagline Generator in action, displaying a generated tagline on a product card._
+
 If npm install fails, delete node_modules/ and package-lock.json, then retry.
 
 Contact [tundegabriel999@gmail.com (mailto: tundegabriel999@gmail.com)] for support.
