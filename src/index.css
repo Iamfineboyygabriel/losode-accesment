@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: white;
+  overflow-y: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: auto;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.modal-container {
+  overflow: hidden !important;
+}
