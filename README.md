@@ -12,6 +12,7 @@ This project is a "Home" (Homeware) category page for Losode’s e-commerce plat
 - **Tailwind CSS** & **Material Tailwind** for styling
 - **Lucide React** for icons
 - **Montserrat** and **Playfair Display** fonts for Losode’s brand aesthetic
+- Added **`react-slick`** to the list of technologies, since it’s used for the mobile hero slider.
 
 ## Features
 
@@ -21,9 +22,26 @@ This project is a "Home" (Homeware) category page for Losode’s e-commerce plat
 - **Smooth UX**: Single scrollbar, intuitive navigation, and consistent styling.
 - **AI-Powered Feature**: Product Tagline Generator (e.g., “Elevate your space with elegance”) integrated into product cards. Implemented with a mocked dataset of taglines for simplicity.
 
+Usage
+Visit the Home category page to explore the hero banner, product grid, and African-inspired CTAs.
+
+On mobile, swipe through the hero slider to view different homeware banners; on desktop, view a single static banner.
+
+Click the “Generate Tagline” button on any product details to display a dynamically generated tagline (e.g., “Transform your home with timeless charm”).
+
+Test responsiveness by resizing the browser or using developer tools to simulate mobile/tablet views.
+
+**Responsive Design Details**:
+
+- In the `Features` section, added a sub-bullet under `Responsive Design` to explain the hero section:
+  - Mobile: Uses a slider (`HeroSlider` component with `react-slick`) to display multiple images.
+  - Desktop: Uses a single static banner (`TopBanner` component) for a focused presentation.
+
+
 ## Project Structure
 
 ├── public/ # Static assets
+├── screenshots/
 ├── src/
 │ ├── assets/ # Images
 │ ├── components/ # Reusable components (e.g., ProductCard, TopBanner)
@@ -44,7 +62,7 @@ This project is a "Home" (Homeware) category page for Losode’s e-commerce plat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Iamfineboyygabriel/losode-assessment.git
+   git clone https://github.com/Iamfineboyygabriel/losode-accesment.git
    ```
 
 Navigate to the project directory:
@@ -69,7 +87,8 @@ Description: An AI-powered feature that generates catchy taglines for homeware p
 
 Implementation: Mocked with a predefined list of taglines stored in src/utils/data.tsx. Taglines are randomly selected when the user clicks the “Generate Tagline” button.
 
-Usage: Available on each Product details page. Click the button to display a new tagline.
+Usage: Available on each Product details page. Click the button to display
+a new tagline.
 
 Assumptions and Notes
 The tagline generator uses a mocked dataset for simplicity, as per the assessment’s focus on UI and modularity.
@@ -79,7 +98,7 @@ The design mirrors Losode’s Men and Women pages, with homeware-specific imager
 No external APIs were used to keep the setup lightweight.
 
 Submission
-Repository: https://github.com/Iamfineboyygabriel/losode-assessment
+Repository: https://github.com/Iamfineboyygabriel/losode-accesment.git
 
 AI Feature: Product Tagline Generator (Option A)
 
@@ -97,6 +116,9 @@ _Desktop view of the Home category page with hero banner and product grid._
 
 ![Product Tagline Generator](screenshots/tagline-generator.png)
 _Product Tagline Generator in action, displaying a generated tagline on a product card._
+
+![Home Category Page (Mobile)](screenshots/mobile-view.png)  
+_Mobile view showcasing the responsive design with a sliding hero banner._
 
 If npm install fails, delete node_modules/ and package-lock.json, then retry.
 

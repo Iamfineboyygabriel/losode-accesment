@@ -16,7 +16,7 @@ import losode from "../../src/assets/images/losode_vector.svg";
 const MobileFooter = () => {
   return (
     <footer className="bg-black md:hidden block text-white mt-10">
-      <div className="py-8 container px-4 mx-auto grid grid-cols-2  gap-3">
+      <div className="py-8 container px-3 mx-auto grid grid-cols-2  gap-3">
         <div className="flex flex-col gap-6">
           <Link to="/">
             <img src={logo} alt="logo" className="max-w-[80px]" />
@@ -49,7 +49,7 @@ const MobileFooter = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="text-xs py-2 bg-black text-white border border-white focus:outline-none focus:border-white w-full"
+              className="text-[10px] py-2 bg-black text-white border border-white focus:outline-none focus:border-white w-full"
             />
             <button className="bg-white px-2 w-fit text-black cursor-pointer text-xs font-medium py-2 hover:bg-gray-200 transition-colors whitespace-nowrap">
               Subscribe
